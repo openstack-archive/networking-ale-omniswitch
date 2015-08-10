@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = networking_ale_omniswitch
+omit = networking_ale_omniswitch/openstack/*
+
+[report]
+ignore-errors = True
