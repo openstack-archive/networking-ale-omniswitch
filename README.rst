@@ -2,15 +2,14 @@
 networking-ale-omniswitch
 ===============================
 
-Networking Alcatel-Lucent Omniswitch contains the Alcatel-Lucent
-Omniswitch vendor code for Openstack Neutron
+Networking-ale-omniswitch package contains Alcatel-Lucent Enterprise Omniswitch vendor code for Openstack Neutron.
 
 * Free software: Apache license
-* Documentation: http://docs.openstack.org/developer/networking-ale-omniswitch
+* Documentation: https://wiki.openstack.org/wiki/Neutron/ML2/ALE-Omniswitch
 * Source: http://git.openstack.org/cgit/openstack/networking-ale-omniswitch
 * Bugs: http://bugs.launchpad.net/networking-ale-omniswitch
 
-Features
---------
+Getting started
+---------------
 
-* TODO
+* Please visit: https://wiki.openstack.org/wiki/Neutron/ML2/ALE-Omniswitch
