@@ -15,6 +15,7 @@
 import cookielib
 import getopt
 import re
+import six
 import sys
 import traceback
 import urllib
@@ -354,7 +355,7 @@ class AOSAPI(object):
 
     # UTIL
     def store_ws_diag(self, ws_diag):
-        if isinstance(ws_diag, (str, unicode)):
+        if isinstance(ws_diag, (str, six.string_types)):
             self.ws_diag = int(ws_diag)
         else:
             self.ws_diag = ws_diag
@@ -497,7 +498,7 @@ class WSConsumer(object):
 
     def printerrors(self, diag, errs):
         print "ERROR#%d:" % diag
-        if isinstance(errs, (str, unicode)):
+        if isinstance(errs, (str, six.string_types)):
             print "- %s" % errs
         else:
             for err in errs:
